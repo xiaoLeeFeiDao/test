@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cpp_learn/cpp_learn.h
+iostream
+-
+cpp_learn_iner.h
+../cpp_learn/cpp_learn_iner.h
+
+../cpp_learn/cpp_learn_iner.h
+
+../demo/demo.h
+
+/home/stone/code/test/main.cpp
+main.h
+/home/stone/code/test/main.h
+
+/home/stone/code/test/main.h
+cpp_learn.h
+/home/stone/code/test/cpp_learn.h
+demo.h
+/home/stone/code/test/demo.h
+iostream
+-
+

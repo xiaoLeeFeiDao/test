@@ -1,0 +1,29 @@
+#Generating source browse information for project test
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build 44_菱形继承与虚继承.pbi : index 44_菱形继承与虚继承.xcl
+build cpp_learn.pbi : index cpp_learn.xcl
+build main.pbi : index main.xcl
+build test.pbd : link 44_菱形继承与虚继承.pbi cpp_learn.pbi main.pbi
+build test.pbw : browsedata test.pbd
+
+

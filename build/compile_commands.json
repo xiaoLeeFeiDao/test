@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/stone/code/test/build",
+  "command": "/usr/bin/g++   -I/home/stone/code/test/cpp_learn -I/home/stone/code/test/demo  -g   -o CMakeFiles/test.out.dir/main.cpp.o -c /home/stone/code/test/main.cpp",
+  "file": "/home/stone/code/test/main.cpp"
+},
+{
+  "directory": "/home/stone/code/test/build",
+  "command": "/usr/bin/g++   -I/home/stone/code/test/cpp_learn -I/home/stone/code/test/demo  -g   -o CMakeFiles/test.out.dir/cpp_learn/44_菱形继承与虚继承.cpp.o -c /home/stone/code/test/cpp_learn/44_菱形继承与虚继承.cpp",
+  "file": "/home/stone/code/test/cpp_learn/44_菱形继承与虚继承.cpp"
+},
+{
+  "directory": "/home/stone/code/test/build",
+  "command": "/usr/bin/g++   -I/home/stone/code/test/cpp_learn -I/home/stone/code/test/demo  -g   -o CMakeFiles/test.out.dir/cpp_learn/cpp_learn.cpp.o -c /home/stone/code/test/cpp_learn/cpp_learn.cpp",
+  "file": "/home/stone/code/test/cpp_learn/cpp_learn.cpp"
+},
+{
+  "directory": "/home/stone/code/test/build",
+  "command": "/usr/bin/g++   -I/home/stone/code/test/cpp_learn -I/home/stone/code/test/demo  -g   -o CMakeFiles/test.out.dir/demo/demo.cpp.o -c /home/stone/code/test/demo/demo.cpp",
+  "file": "/home/stone/code/test/demo/demo.cpp"
+},
+{
+  "directory": "/home/stone/code/test/build",
+  "command": "/usr/bin/g++   -I/home/stone/code/test/cpp_learn -I/home/stone/code/test/demo  -g   -o CMakeFiles/test.out.dir/demo/demo_test01.cpp.o -c /home/stone/code/test/demo/demo_test01.cpp",
+  "file": "/home/stone/code/test/demo/demo_test01.cpp"
+}
+]

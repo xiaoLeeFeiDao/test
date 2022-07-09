@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/stone/code/test
+-- ./main.cppcpp_learn/44_鑿卞舰缁ф壙涓庤櫄缁ф壙.cppcpp_learn/cpp_learn.cppdemo/demo.cppdemo/demo_test01.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/stone/code/test/cmake-build-debug
