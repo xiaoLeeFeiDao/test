@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/test.out.dir/main.cpp.o CMakeFiles/test.out.dir/cpp_learn/44_菱形继承与虚继承.cpp.o CMakeFiles/test.out.dir/cpp_learn/cpp_learn.cpp.o CMakeFiles/test.out.dir/demo/demo.cpp.o CMakeFiles/test.out.dir/demo/demo_test01.cpp.o  -o ../Debug/Exe/test.out 
+/usr/bin/g++ -g -rdynamic CMakeFiles/test.out.dir/main.cpp.o CMakeFiles/test.out.dir/cpp_learn/44_菱形继承与虚继承.cpp.o CMakeFiles/test.out.dir/cpp_learn/cpp_learn.cpp.o CMakeFiles/test.out.dir/demo/demo.cpp.o CMakeFiles/test.out.dir/demo/demo_test01.cpp.o -o ../Debug/Exe/test.out 

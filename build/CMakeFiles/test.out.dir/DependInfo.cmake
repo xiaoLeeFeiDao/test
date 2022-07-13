@@ -1,21 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stone/code/test/cpp_learn/44_菱形继承与虚继承.cpp" "/home/stone/code/test/build/CMakeFiles/test.out.dir/cpp_learn/44_菱形继承与虚继承.cpp.o"
-  "/home/stone/code/test/cpp_learn/cpp_learn.cpp" "/home/stone/code/test/build/CMakeFiles/test.out.dir/cpp_learn/cpp_learn.cpp.o"
-  "/home/stone/code/test/demo/demo.cpp" "/home/stone/code/test/build/CMakeFiles/test.out.dir/demo/demo.cpp.o"
-  "/home/stone/code/test/demo/demo_test01.cpp" "/home/stone/code/test/build/CMakeFiles/test.out.dir/demo/demo_test01.cpp.o"
-  "/home/stone/code/test/main.cpp" "/home/stone/code/test/build/CMakeFiles/test.out.dir/main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../cpp_learn"
-  "../demo"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/stone/code/test/cpp_learn/44_菱形继承与虚继承.cpp" "CMakeFiles/test.out.dir/cpp_learn/44_菱形继承与虚继承.cpp.o" "gcc" "CMakeFiles/test.out.dir/cpp_learn/44_菱形继承与虚继承.cpp.o.d"
+  "/home/stone/code/test/cpp_learn/cpp_learn.cpp" "CMakeFiles/test.out.dir/cpp_learn/cpp_learn.cpp.o" "gcc" "CMakeFiles/test.out.dir/cpp_learn/cpp_learn.cpp.o.d"
+  "/home/stone/code/test/demo/demo.cpp" "CMakeFiles/test.out.dir/demo/demo.cpp.o" "gcc" "CMakeFiles/test.out.dir/demo/demo.cpp.o.d"
+  "/home/stone/code/test/demo/demo_test01.cpp" "CMakeFiles/test.out.dir/demo/demo_test01.cpp.o" "gcc" "CMakeFiles/test.out.dir/demo/demo_test01.cpp.o.d"
+  "/home/stone/code/test/main.cpp" "CMakeFiles/test.out.dir/main.cpp.o" "gcc" "CMakeFiles/test.out.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
